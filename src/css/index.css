@@ -1,0 +1,103 @@
+.logo{
+    margin: 5px;
+    width: 120px!important;
+}
+
+#search{
+    color: white;
+    font-size: 25px;
+}
+
+#search:focus{
+    background-color: transparent;
+}
+
+.search__input{
+    display: flex;
+    align-items: center;
+}
+
+.info__weather .info__weather-head h3{
+    text-align: center;
+    font-weight: 500;
+}
+
+.info__weather .info__weather-head .time{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.info__weather-head-temperature i{
+    font-size: 50px;
+}
+
+.info__weather-head-temperature span{
+    font-size: 80px;
+}
+
+.params i{
+    font-size: 20px!important;
+    margin-right: 10px;
+}
+
+.params span{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+h6{
+    font-weight: 500;
+}
+
+.info__weather-head-info .params{
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+
+.collection-item__info{
+    display: flex;
+    align-items: center;
+}
+
+.collection-item__info i {
+    margin-right: 10px;
+}
+
+.collection-item{
+    display: flex;
+    align-items: center;
+
+    background-color: transparent!important;
+}
+
+.collection li{
+    display: flex;
+    justify-content: space-between;
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: calc(50% - 100px);
+    left: calc(50% - 100px);
+}
+
+.time{
+    color: white;
+}
+
+body{
+    color: white;
+
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+
+.search__input button{
+    background-color: white!important;
+    color: black!important;
+}
+

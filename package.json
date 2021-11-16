@@ -1,0 +1,26 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "chart.js": "^3.6.0",
+    "date-and-time": "^2.0.1",
+    "dateformat": "^5.0.2",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34"
+  }
+}
